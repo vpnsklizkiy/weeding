@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Максим & Юлия</title>
+  </head>
+
+  <body>
+    <!-- HERO -->
+
+    <section class="hero-open" id="inviteHero">
+      <div class="hero-open__grain"></div>
+
+      <div class="hero-open__inner">
+        <h1 class="hero-open__title">
+          Максим
+          <span>& Юлия</span>
+        </h1>
+
+        <!-- <p class="hero-open__subtitle">Один день. Одно сердце. Одна история.</p> -->
+
+        <button class="hero-open__button" type="button" id="openInvite">
+          Открыть приглашение
+        </button>
+      </div>
+
+      <svg
+        class="hero-open__pulse"
+        viewBox="0 0 1200 180"
+        preserveAspectRatio="xMidYMid meet"
+      >
+        <path
+          d="
+            M0 90
+            L320 90
+
+            L345 82
+            L360 115
+            L375 42
+            L390 128
+            L410 90
+
+            L1200 90
+          "
+        />
+      </svg>
+    </section>
+
+    <section class="welcome-block" id="schedule">
+      <div class="welcome-block__inner">
+        <!-- <div class="welcome-block__date">
+          <span>28</span>
+
+          <i></i>
+
+          <span>08</span>
+
+          <i></i>
+
+          <span>2026</span>
+        </div> -->
+        <h2 class="welcome-block__title"><span>Д</span>орогие гости!</h2>
+
+        <p class="welcome-block__text">
+          Мы приглашаем вас разделить с нами радостный день, в который мы станем
+          семьей!
+        </p>
+      </div>
+    </section>
+    <!-- SCHEDULE -->
+
+    <section class="date-transform">
+      <div class="date-transform__sticky">
+        <div class="date-transform__date">
+          <span class="date-day">28</span>
+          <i></i>
+          <span class="date-month">08</span>
+          <i></i>
+          <span class="date-year">2026</span>
+        </div>
+
+        <h2 class="date-transform__title">Наш август</h2>
+
+        <div class="date-transform__calendar">
+          <span>26</span>
+          <span>27</span>
+
+          <div class="date-transform__heart">
+            <svg viewBox="0 0 100 90">
+              <path
+                d="M50 82 L42 74 C18 52 4 38 4 20 C4 8 14 0 26 0 C35 0 43 5 50 14 C57 5 65 0 74 0 C86 0 96 8 96 20 C96 38 82 52 58 74 L50 82"
+              />
+              <text x="50" y="47">28</text>
+            </svg>
+          </div>
+
+          <span>29</span>
+          <span>30</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="pulse-schedule">
+      <h2 class="pulse__title">Программа дня</h2>
+      <div class="pulse-track">
+        <svg
+          class="pulse-svg"
+          viewBox="0 0 1600 420"
+          preserveAspectRatio="xMidYMid meet"
+        >
+          <path
+            d="
+              M0 210
+              L150 210
+
+              L180 190
+              L195 250
+              L210 125
+              L225 285
+              L250 210
+
+              L530 210
+
+              L560 190
+              L575 250
+              L590 125
+              L605 285
+              L630 210
+
+              L910 210
+
+              L940 190
+              L955 250
+              L970 125
+              L985 285
+              L1010 210
+
+              L1290 210
+
+              L1320 190
+              L1335 250
+              L1350 125
+              L1365 285
+              L1390 210
+
+              L1600 210
+            "
+          />
+
+          <g class="peak-dot">
+            <circle cx="210" cy="125" r="12" />
+          </g>
+
+          <g class="peak-dot">
+            <circle cx="605" cy="285" r="12" />
+          </g>
+
+          <g class="peak-dot">
+            <circle cx="970" cy="125" r="12" />
+          </g>
+
+          <g class="peak-dot">
+            <circle cx="1365" cy="285" r="12" />
+          </g>
+        </svg>
+
+        <div class="pulse-event event-1">
+          <span>15:00</span>
+          <h3>Церемония</h3>
+          <p>Начало главного события дня</p>
+        </div>
+
+        <div class="pulse-event event-2">
+          <span>18:00</span>
+          <h3>Ужин</h3>
+          <p>Семейный вечер и общение</p>
+        </div>
+
+        <div class="pulse-event event-3">
+          <span>21:00</span>
+          <h3>Торт</h3>
+          <p>Сладкий момент вечера</p>
+        </div>
+
+        <div class="pulse-event event-4">
+          <span>22:00</span>
+          <h3>Финал</h3>
+          <p>Завершение праздника</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="location-section" id="location">
+      <div class="location__inner">
+        <div class="location__content">
+          <p class="location__label">Место церемонии</p>
+
+          <h2 class="location__title">ЗАГС</h2>
+
+          <section class="couple-gallery">
+            <div class="couple-gallery__inner">
+              <div
+                class="couple-gallery__photo couple-gallery__photo--large"
+                style="height: 245px"
+              >
+                <img src="./img/1.png" alt="Максим и Юлия" />
+              </div>
+            </div>
+          </section>
+
+          <p class="location__text">Будем ждать вас по адресу:</p>
+
+          <address class="location__address">
+            г. Ростов-на-Дону,<br />
+            ул. 1-я Майская, д. 20/7
+          </address>
+
+          <a
+            class="location__button"
+            href="https://yandex.ru/maps/?text=Ростов-на-Дону%2C%201-я%20Майская%2020%2F7"
+            target="_blank"
+          >
+            Открыть в Яндекс Картах
+          </a>
+        </div>
+
+        <div class="location__map">
+          <iframe
+            src="https://yandex.ru/map-widget/v1/?text=Ростов-на-Дону%2C%201-я%20Майская%2020%2F7"
+            loading="lazy"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="dresscode-v2" id="dress-code">
+      <div class="dresscode-v2__inner">
+        <p class="dresscode-v2__label">Dress code</p>
+
+        <h2 class="dresscode-v2__title">Пастельные оттенки</h2>
+
+        <p class="dresscode-v2__text">
+          Нам будет особенно приятно, если в своих образах вы поддержите
+          цветовую палитру нашего дня
+        </p>
+
+        <!-- COLORS -->
+
+        <div class="dresscode-v2__palette">
+          <div class="dresscode-v2__color">
+            <span style="background: #ddd6cc"></span>
+          </div>
+
+          <div class="dresscode-v2__color">
+            <span style="background: #d9c7b0"></span>
+          </div>
+
+          <div class="dresscode-v2__color">
+            <span style="background: #e6c9c3"></span>
+          </div>
+
+          <div class="dresscode-v2__color">
+            <span style="background: #9ea27d"></span>
+          </div>
+
+          <div class="dresscode-v2__color">
+            <span style="background: #b0a095"></span>
+          </div>
+
+          <div class="dresscode-v2__color">
+            <span style="background: #8b644d"></span>
+          </div>
+
+          <div class="dresscode-v2__color">
+            <span style="background: #6f7140"></span>
+          </div>
+
+          <div class="dresscode-v2__color">
+            <span style="background: #51473f"></span>
+          </div>
+        </div>
+
+        <!-- GALLERY -->
+      </div>
+    </section>
+
+    <footer class="wedding-footer">
+      <div class="wedding-footer__overlay"></div>
+
+      <div class="wedding-footer__inner">
+        <h2 class="wedding-footer__title">Пожелания</h2>
+
+        <p class="wedding-footer__text">
+          От всего сердца просим вас воздержаться от криков "Горько" и сохранить
+          атмосферу уютного вечера
+        </p>
+        <div class="wedding-footer__line">
+          <span></span>
+
+          <div class="wedding-footer__heart">
+            <svg viewBox="0 0 100 90">
+              <path
+                d="
+            M50 82
+            L42 74
+            C18 52 4 38 4 20
+            C4 8 14 0 26 0
+            C35 0 43 5 50 14
+            C57 5 65 0 74 0
+            C86 0 96 8 96 20
+            C96 38 82 52 58 74
+            L50 82
+          "
+              />
+            </svg>
+          </div>
+
+          <span></span>
+        </div>
+        <p class="wedding-footer__text">
+          Мы очень ценим Вашу заботу, внимание и будем рады любому подарку!
+          <br />
+          И не важно, в какой конверт Вы его упакуете :)
+        </p>
+      </div>
+    </footer>
+
+    <section class="countdown-section">
+      <div class="countdown-heart" aria-hidden="true"></div>
+
+      <h2>Через</h2>
+
+      <div class="countdown" data-deadline="2026-08-28T15:00:00">
+        <div>
+          <span id="days">00</span>
+          <p>дней</p>
+        </div>
+        <div>
+          <span id="hours">00</span>
+          <p>часов</p>
+        </div>
+        <div>
+          <span id="minutes">00</span>
+          <p>минут</p>
+        </div>
+        <div>
+          <span id="seconds">00</span>
+          <p>секунд</p>
+        </div>
+      </div>
+      <h2>Мы скажем</h2>
+      <h2>ДА</h2>
+    </section>
+
+    <section class="couple-gallery">
+      <div class="couple-gallery__inner">
+        <div class="couple-gallery__photo couple-gallery__photo--large">
+          <img src="./img/3I7A5055.JPG" alt="Максим и Юлия" />
+        </div>
+      </div>
+    </section>
+
+    <section class="rsvp" id="rsvp">
+      <div class="rsvp__inner">
+        <h2 class="rsvp__title">Анкета гостя</h2>
+
+        <p class="rsvp__text">
+          Пожалуйста, заполните форму, чтобы мы могли всё подготовить.
+        </p>
+
+        <form class="rsvp__form" id="rsvpForm">
+          <label>
+            <span>Фамилия и имя</span>
+            <input
+              type="text"
+              name="name"
+              placeholder="Например: Иванов Иван"
+              required
+            />
+          </label>
+
+          <label>
+            <span>Будете ли вы присутствовать?</span>
+            <select name="attendance" required>
+              <option value="" disabled selected>Выберите вариант</option>
+              <option value="Да, буду">Да, буду</option>
+              <option value="К сожалению, не смогу">
+                К сожалению, не смогу
+              </option>
+              <option value="Пока не знаю">Пока не знаю</option>
+            </select>
+          </label>
+
+          <fieldset>
+            <legend>Предпочтения в напитках</legend>
+
+            <label class="rsvp__checkbox">
+              <input type="checkbox" name="drinks" value="Вино" />
+              <span>Вино</span>
+            </label>
+
+            <label class="rsvp__checkbox">
+              <input type="checkbox" name="drinks" value="Шампанское" />
+              <span>Шампанское</span>
+            </label>
+
+            <label class="rsvp__checkbox">
+              <input type="checkbox" name="drinks" value="Крепкий алкоголь" />
+              <span>Крепкий алкоголь</span>
+            </label>
+
+            <label class="rsvp__checkbox">
+              <input
+                type="checkbox"
+                name="drinks"
+                value="Безалкогольные напитки"
+              />
+              <span>Безалкогольные напитки</span>
+            </label>
+          </fieldset>
+
+          <button type="submit" class="rsvp__button">Отправить</button>
+
+          <p class="rsvp__status" id="rsvpStatus"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="couple-gallery">
+      <div class="couple-gallery__inner">
+        <div class="couple-gallery__photo couple-gallery__photo--small">
+          <img src="./img/end.png" alt="Максим и Юлия" />
+        </div>
+      </div>
+      <div class="couple-gallery__content">
+        <p>ЖДЕМ ВАС!</p>
+        <h2>С любовью,<br />Максим и Юлия</h2>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

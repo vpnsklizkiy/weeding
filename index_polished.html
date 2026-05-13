@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Максим & Юлия</title>
+  </head>
+
+  <body>
+    <section class="hero-open" id="inviteHero">
+      <div class="hero-open__grain"></div>
+
+      <div class="hero-open__inner">
+        <p class="hero-open__date">28 • 08 • 2026</p>
+
+        <h1 class="hero-open__title">
+          Максим
+          <span>& Юлия</span>
+        </h1>
+
+        <p class="hero-open__subtitle">Один день. Одно сердце. Одна история.</p>
+
+        <button class="hero-open__button" type="button" id="openInvite">
+          Открыть приглашение
+        </button>
+      </div>
+
+      <svg class="hero-open__pulse" viewBox="0 0 1200 180" preserveAspectRatio="xMidYMid meet">
+        <path d="M0 90 L320 90 L345 82 L360 115 L375 42 L390 128 L410 90 L1200 90" />
+      </svg>
+    </section>
+
+    <main>
+      <section class="date-choice section-soft" id="date">
+        <div class="section-head">
+          <p class="section-kicker">Приглашение</p>
+          <p class="date-choice__text">
+            И в этот прекрасный день мы хотим вместе с Вами разделить яркие
+            мгновения и искренние улыбки!
+          </p>
+          <h2 class="section-title date-choice__title">Наш август</h2>
+        </div>
+
+        <div class="date-choice__calendar">
+          <span class="date-choice__day">26</span>
+          <span class="date-choice__day">27</span>
+
+          <div class="date-choice__heart" aria-label="28 августа">
+            <svg viewBox="0 0 100 90">
+              <path d="M50 82 L42 74 C18 52 4 38 4 20 C4 8 14 0 26 0 C35 0 43 5 50 14 C57 5 65 0 74 0 C86 0 96 8 96 20 C96 38 82 52 58 74 L50 82" />
+              <text x="50" y="48">28</text>
+            </svg>
+          </div>
+
+          <span class="date-choice__day">29</span>
+          <span class="date-choice__day">30</span>
+        </div>
+      </section>
+
+      <div class="section-divider" aria-hidden="true">
+        <svg viewBox="0 0 900 90" preserveAspectRatio="none">
+          <path d="M0 45 L330 45 L352 36 L366 62 L382 20 L398 68 L420 45 L900 45" />
+        </svg>
+      </div>
+
+      <section class="pulse-schedule" id="schedule">
+        <div class="section-head">
+          <p class="section-kicker">План дня</p>
+          <h2 class="section-title">Расписание</h2>
+        </div>
+
+        <div class="pulse-track">
+          <svg class="pulse-svg" viewBox="0 0 1600 420" preserveAspectRatio="xMidYMid meet">
+            <path d="M0 210 L150 210 L180 190 L195 250 L210 125 L225 285 L250 210 L530 210 L560 190 L575 250 L590 125 L605 285 L630 210 L910 210 L940 190 L955 250 L970 125 L985 285 L1010 210 L1290 210 L1320 190 L1335 250 L1350 125 L1365 285 L1390 210 L1600 210" />
+            <g class="peak-dot"><circle cx="210" cy="125" r="12" /></g>
+            <g class="peak-dot"><circle cx="605" cy="285" r="12" /></g>
+            <g class="peak-dot"><circle cx="970" cy="125" r="12" /></g>
+            <g class="peak-dot"><circle cx="1365" cy="285" r="12" /></g>
+          </svg>
+
+          <div class="pulse-event event-1">
+            <span>15:00</span>
+            <h3>Церемония</h3>
+            <p>Начало главного события дня</p>
+          </div>
+
+          <div class="pulse-event event-2">
+            <span>18:00</span>
+            <h3>Ужин</h3>
+            <p>Семейный вечер и общение</p>
+          </div>
+
+          <div class="pulse-event event-3">
+            <span>21:00</span>
+            <h3>Торт</h3>
+            <p>Сладкий момент вечера</p>
+          </div>
+
+          <div class="pulse-event event-4">
+            <span>22:00</span>
+            <h3>Финал</h3>
+            <p>Завершение праздника</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="countdown-section section-accent" id="countdown">
+        <div class="countdown-heart" aria-hidden="true"></div>
+
+        <div class="section-head">
+          <p class="section-kicker section-kicker--light">Дата, ради которой всё затевается</p>
+          <h2 class="section-title">Через</h2>
+        </div>
+
+        <div class="countdown" data-deadline="2026-08-28T15:00:00">
+          <div><span id="days">00</span><p>дней</p></div>
+          <div><span id="hours">00</span><p>часов</p></div>
+          <div><span id="minutes">00</span><p>минут</p></div>
+          <div><span id="seconds">00</span><p>секунд</p></div>
+        </div>
+
+        <h2 class="countdown-section__yes">Мы скажем<br />ДА</h2>
+      </section>
+
+      <section class="location-section" id="location">
+        <div class="location__inner card-shell">
+          <div class="location__content">
+            <p class="section-kicker">Место церемонии</p>
+            <h2 class="section-title location__title">ЗАГС</h2>
+            <p class="location__text">Будем ждать вас по адресу:</p>
+            <address class="location__address">
+              г. Ростов-на-Дону,<br />ул. 1-я Майская, д. 20/7
+            </address>
+            <a class="button button--wine" href="https://yandex.ru/maps/?text=Ростов-на-Дону%2C%201-я%20Майская%2020%2F7" target="_blank" rel="noreferrer">
+              Открыть в Яндекс Картах
+            </a>
+          </div>
+
+          <div class="location__map">
+            <iframe src="https://yandex.ru/map-widget/v1/?text=Ростов-на-Дону%2C%201-я%20Майская%2020%2F7" loading="lazy" allowfullscreen></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="dresscode-v2" id="dress-code">
+        <div class="dresscode-v2__inner">
+          <div class="section-head">
+            <p class="section-kicker">Dress code</p>
+            <h2 class="section-title">Пастельные оттенки</h2>
+            <p class="section-text">
+              Нам будет особенно приятно, если в своих образах вы поддержите
+              нежную цветовую палитру нашего дня.
+            </p>
+          </div>
+
+          <div class="dresscode-v2__palette" aria-label="Палитра дресс-кода">
+            <span style="--tone:#ddd6cc"></span>
+            <span style="--tone:#d9c7b0"></span>
+            <span style="--tone:#e6c9c3"></span>
+            <span style="--tone:#9ea27d"></span>
+            <span style="--tone:#b0a095"></span>
+            <span style="--tone:#8b644d"></span>
+            <span style="--tone:#6f7140"></span>
+            <span style="--tone:#51473f"></span>
+          </div>
+
+          <div class="dresscode-v2__gallery" aria-label="Примеры образов">
+            <article class="dresscode-v2__card"><img src="./img/dress-1.jpg" alt="Пастельный образ для гостей" /></article>
+            <article class="dresscode-v2__card"><img src="./img/dress-2.jpg" alt="Пастельный образ для гостей" /></article>
+            <article class="dresscode-v2__card"><img src="./img/dress-3.jpg" alt="Пастельный образ для гостей" /></article>
+            <article class="dresscode-v2__card"><img src="./img/dress-4.jpg" alt="Пастельный образ для гостей" /></article>
+            <article class="dresscode-v2__card"><img src="./img/dress-5.jpg" alt="Пастельный образ для гостей" /></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="rsvp" id="rsvp">
+        <div class="rsvp__inner card-shell">
+          <div class="section-head">
+            <p class="section-kicker">RSVP</p>
+            <h2 class="section-title">Анкета гостя</h2>
+            <p class="section-text">Пожалуйста, заполните форму, чтобы мы могли всё подготовить.</p>
+          </div>
+
+          <form class="rsvp__form" id="rsvpForm">
+            <label>
+              <span>Фамилия и имя</span>
+              <input type="text" name="name" placeholder="Например: Иванов Иван" required />
+            </label>
+
+            <label>
+              <span>Будете ли вы присутствовать?</span>
+              <select name="attendance" required>
+                <option value="" disabled selected>Выберите вариант</option>
+                <option value="Да, буду">Да, буду</option>
+                <option value="К сожалению, не смогу">К сожалению, не смогу</option>
+                <option value="Пока не знаю">Пока не знаю</option>
+              </select>
+            </label>
+
+            <fieldset>
+              <legend>Предпочтения в напитках</legend>
+              <label class="rsvp__checkbox"><input type="checkbox" name="drinks" value="Вино" /><span>Вино</span></label>
+              <label class="rsvp__checkbox"><input type="checkbox" name="drinks" value="Шампанское" /><span>Шампанское</span></label>
+              <label class="rsvp__checkbox"><input type="checkbox" name="drinks" value="Крепкий алкоголь" /><span>Крепкий алкоголь</span></label>
+              <label class="rsvp__checkbox"><input type="checkbox" name="drinks" value="Безалкогольные напитки" /><span>Безалкогольные напитки</span></label>
+            </fieldset>
+
+            <button type="submit" class="button button--wine rsvp__button">Отправить</button>
+            <p class="rsvp__status" id="rsvpStatus"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
